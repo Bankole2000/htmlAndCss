@@ -1,0 +1,106 @@
+:root {
+  font-size: 16px;
+  --primay-color: #ff0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.serif {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sanserif {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.monospace {
+  font-family: "consolas", "Lucida console", "Lucida Sans",
+    "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+    Verdana, monospace;
+}
+
+.pixels {
+  font-size: 50px;
+}
+
+.percents {
+  font-size: 200%;
+  background-color: var(--primay-color);
+}
+
+.ems {
+  font-size: 3em;
+}
+
+.rems {
+  font-size: 3rem;
+  background-color: var(--primay-color);
+}
+
+.vws {
+  font-size: 10vw;
+}
+
+.clamped {
+  font-size: clamp(1rem, -0.875rem + 8.333333vw, 3.5rem);
+  background-color: var(--primay-color);
+  color: white;
+}
+
+.imported {
+  /* Montserrat, Bebas Nueue, Poppins, Roboto, Lato,  */
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.light {
+  font-weight: light;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.OO1 {
+  font-weight: 100;
+}
+
+.OO2 {
+  font-weight: 200;
+}
+
+.OO3 {
+  font-weight: 300;
+}
+
+.OO4 {
+  font-weight: 400;
+}
+
+.OO5 {
+  font-weight: 500;
+}
+
+.OO6 {
+  font-weight: 600;
+}
+
+.OO7 {
+  font-weight: 700;
+}
+
+.OO8 {
+  font-weight: 800;
+}
+
+.OO9 {
+  font-weight: 900;
+}

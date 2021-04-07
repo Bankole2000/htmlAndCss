@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 90%;
+  height: 95%;
+  background-color: orange;
+  display: flex;
+}
+
+.left-section {
+  width: 27%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.right-section {
+  width: 27%;
+  height: 100%;
+  background-color: blue;
+}
+
+.mid-section {
+  width: 46%;
+  height: 100%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.mid-section header {
+  width: 100%;
+  flex: 1;
+  background-color: indigo;
+}
+
+.mid-section .chat-section {
+  width: 100%;
+  flex: 10;
+  background-color: violet;
+  overflow-y: scroll;
+}
+
+.mid-section footer {
+  width: 100%;
+  flex: 1;
+  background-color: yellowgreen;
+}

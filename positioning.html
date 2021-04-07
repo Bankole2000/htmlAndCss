@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="positioning.css" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      padding: 30px;
+      background-color: rgb(197, 171, 65);
+      height: 200vh;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    .box {
+      padding: 20px;
+    }
+  </style>
+  <body>
+    <div class="parent" style="background-color: lightblue; padding: 30px">
+      <h3 style="margin-bottom: 20px">Positioning Parent</h3>
+      <h3 class="box one" style="background-color: red">
+        This is positioned Static
+        <span style="font-size: 0.8rem; font-weight: lighter"
+          >This is the normal flow of elements on a page</span
+        >
+      </h3>
+      <h3 class="box two" style="background-color: orange">
+        this is <em>position : relative; left: 20px</em>
+        <span style="font-size: 0.8rem; font-weight: lighter"
+          >This is in the normal flow but we can move it relative to where it
+          should have been</span
+        >
+      </h3>
+      <h3 class="box three" style="background-color: yellow">
+        This is <em>position: fixed</em>
+        <span style="font-size: 0.8rem; font-weight: lighter"
+          >This is out of the normal flow and scrolls with the page</span
+        >
+      </h3>
+      <h3 class="box four" style="background-color: green">
+        This is <em>position: absolute;</em>
+        <span style="font-size: 0.8rem; font-weight: lighter"
+          >This is out of the normal flow and is positioned in relation to the
+          most immediate non-static parent. Does not scroll with the page</span
+        >
+      </h3>
+      <h3 class="box five" style="background-color: blue">
+        This is <em>position: sticky; top: 50px</em>
+        <span style="font-size: 0.8rem; font-weight: lighter"
+          >This is in the normal flow but scrolls with the page as long as it is
+          in it's parent element</span
+        >
+      </h3>
+    </div>
+  </body>
+</html>

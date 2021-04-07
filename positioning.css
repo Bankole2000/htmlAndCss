@@ -1,0 +1,29 @@
+.parent {
+  height: 190vh;
+}
+
+.one {
+  position: static;
+}
+
+.two {
+  position: relative;
+  left: 20px;
+}
+
+.three {
+  position: fixed;
+  bottom: 0;
+}
+
+.four {
+  position: absolute;
+  top: 0;
+  color: white;
+}
+
+.five {
+  position: sticky;
+  top: 50px;
+  color: white;
+}

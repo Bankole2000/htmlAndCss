@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: red;
+}
+
+nav {
+  width: 24vw;
+  height: 100vh;
+  background-color: orange;
+}
+
+aside {
+  width: 34vw;
+  height: 100vh;
+  background-color: green;
+}
+
+main {
+  width: 42vw;
+  height: 100vh;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+}
+
+main header {
+  flex: 1;
+  width: 100%;
+  background-color: blue;
+}
+
+main .feed {
+  flex: 12;
+  width: 100%;
+  background-color: indigo;
+  overflow-y: scroll;
+}
