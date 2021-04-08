@@ -33,13 +33,14 @@ This is an unordered lis
 2. This is item two (numbered)
 
 I want to write a literal asterisk like this \*
+
 This is a forward slash - \\
 
 <a href="https://google.com">This is a link to google</a>
 
 [This is also a link to google](https://google.com)
 
-[[This is a link to google][google-url]]
+[This is a link to google][google-url]
 
 [![This is an image of a cat][cat-image]](https://facebook.com)
 
@@ -81,7 +82,7 @@ Upcoming Features in the project
 
 ![Top left flower](/imgs/horiztoleft.png)
 
-<img src="https://ukmadcat.com/wp-content/uploads/2019/04/sleepy-cat.jpg" alt="drawing" style="max-width:200px;"/>
+<img src="https://ukmadcat.com/wp-content/uploads/2019/04/sleepy-cat.jpg" alt="drawing" width="200"/>
 
 
 
