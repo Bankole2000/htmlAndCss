@@ -82,7 +82,7 @@ Upcoming Features in the project
 
 ![Top left flower](/imgs/horiztoleft.png)
 
-<img src="https://ukmadcat.com/wp-content/uploads/2019/04/sleepy-cat.jpg" alt="drawing" width="200"/>
+<img src="https://ukmadcat.com/wp-content/uploads/2019/04/sleepy-cat.jpg" alt="drawing" width="200"/> 
 
 
 
